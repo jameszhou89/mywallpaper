@@ -1,0 +1,19 @@
+@baseUrl=http://localhost:3000/api
+
+
+###test
+POST {{baseUrl}}/test 
+
+
+### gen wallpaper
+POST {{baseUrl}}/gen-wallpaper
+Content-Type: application/json
+
+{
+    "description": "spring in canada windsor "
+}
+
+### get wallpapers
+GET {{baseUrl}}/get-wallpaper
+
+
