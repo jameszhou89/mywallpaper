@@ -30,7 +30,7 @@ export default function Home() {
     <div className="w-screen h-screen">
       <Header />
       <Hero />
-      <Input setWallpapers={setWallpapers} wallpapers={[]} />
+      <Input setWallpapers={setWallpapers} wallpapers={wallpapers} />
       <Wallpapers wallpapers={wallpapers} />
       <Footer />
     </div>
