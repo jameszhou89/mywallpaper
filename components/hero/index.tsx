@@ -5,8 +5,8 @@ export default function(){
         <section className="relatve">
           <div className="mx-auto max-w-6xl px-1 py-2 md:px-5 md:py-6 lg:py-8">
             <div className="mx-auto mb-6 w-full max-w-3xl text-center md:mb-8 lg:mb-5">
-              <h1 className="mb-5 text-4xl font-semibold md:text-8xl">AI 壁纸生成器 from James</h1>
-              <p className="mx-auto mb-5 max-w-[528px] text-xl text-[#636262] lg:mb-8">帮你生成你想要的壁纸</p>
+              <h1 className="mb-5 text-4xl font-semibold md:text-8xl">AI Wallpaper Generator</h1>
+              <p className="mx-auto mb-5 max-w-[528px] text-xl text-[#636262] lg:mb-8">Generate the wallpaper you want.</p>
               <div className="flex justify-center">
                </div>
             </div>

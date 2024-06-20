@@ -15,8 +15,7 @@ export default function({wallpapers}:Props) {
         <section className="max-w-6xl mx-auto">
             <div className="mx-auto w-full max-w-7xl px-2 py-4 md:px-4 md:py-1">
           <div className="mb-2 text-center md:mb-12 ">
-            <h2 className="text-3xl font-bold md:text-5xl text-primary">全部壁纸</h2>
-            <p className="mt-4 text-[#636262] sm:text-sm md:text-base">一共100条 由AI生成</p>
+            <h2 className="text-3xl font-bold md:text-5xl text-primary">All wallpapers list</h2>
           </div>
           <div className="mb-4 grid grid-cols-1 gap-3 sm:grid-cols-2 md:mb-8 md:grid-cols-3 md:gap-2 ">
             {wallpapers && wallpapers.map((wallpaper:Wallpaper,idx:number) => {

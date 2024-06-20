@@ -105,13 +105,13 @@ export default function({setWallpapers}: Props) {
             {/* 使用内联样式设置输入框宽度 */}
             <Input 
             type="text" 
-            placeholder="请输入你想要的壁纸" 
+            placeholder="Please enter the wallpaper you want." 
             value={description} 
             onChange={e => setDescription(e.target.value)}
             disabled={loading}
             style={{width: '2400px'}} />
             <Button className="ml-4" onClick={handleSubmit} disabled={loading} > 
-            {loading ? "生成中..." : "生成壁纸"}
+            {loading ? "generating..." : "start to generate"}
             </Button>
         </div>
     )

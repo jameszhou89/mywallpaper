@@ -4,7 +4,7 @@ export default function() {
             <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
                 <div className="flex flex-col items-center">
                 <a href="#" className="mb-8 inline-block max-w-full text-black">
-                    AI壁纸生成器
+                    AI Wallpaper Generator
                 </a>
                 <div className="max-[991px]: text-center font-semibold max-[991px]:py-1">
                     <a href="#" className="inline-block px-6 py-2 font-normal text-black transition hover:text-[#d6a701]">About</a>
