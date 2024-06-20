@@ -8,6 +8,8 @@ import {User} from "@/types/user"
 import { insertUser } from "@/models/user";
 import { saveUser } from "@/service/user";
 
+export const maxDuration = 45;
+
 export async function POST(req :Request){
 
     const {description} = await req.json();
